@@ -1,0 +1,2 @@
+# Separator
+Bookmarks bar separators
