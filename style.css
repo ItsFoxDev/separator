@@ -1,0 +1,59 @@
+@import url('https://cdn.jsdelivr.net/gh/ItsFoxDev/API/AvenirWebFont/import.css');
+#Container{
+  width: 500px;
+  height: 300px;
+  background: white;
+  border-radius:10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display:grid;
+  align-content:center;
+}
+body{
+  display:grid;
+  justify-content: center;
+  align-content: center;
+  width:100vw;
+  height:100vh;
+  margin:0px;
+}
+#Container div{
+  display:grid;
+  align-content:center;
+  height:100%;
+}
+#Container div *{
+  text-align:center;
+}
+#Container div h1,#Container div h4{
+  margin:0px;
+}
+#Container div span{
+  margin-top:10px;
+}
+#sLink{
+  width:30px;
+  height:17px;
+  display:inline-block;
+  background-image:url("https://cdn.jsdelivr.net/gh/ItsFoxDev/Separator/res/this.png");
+  background-size:contain;
+  transform:translateY(4px);
+}
+h4,span{
+  font-family:'Avenir Next Reg';
+}
+h1{
+  font-family:'Avenir Next Demi';
+}
+#fImg{
+  width:30px;
+  background:white;
+  transform:translateY(30px); /**/
+  bottom:0px;
+  cursor:pointer;
+}
+div#footer{
+  width:100%;
+  justify-content:center;
+  align-content:center;
+  bottom:0px;
+}
