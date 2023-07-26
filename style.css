@@ -1,4 +1,4 @@
-@import url('https://cdn.jsdelivr.net/gh/ItsFoxDev/API/AvenirWebFont/import.css');
+@import url('https://itsfoxdev.github.io/resources/avenir/import.css');
 #Container{
   width: 500px;
   height: 300px;
@@ -34,15 +34,13 @@ body{
   width:30px;
   height:17px;
   display:inline-block;
-  background-image:url("https://cdn.jsdelivr.net/gh/ItsFoxDev/Separator/res/this.png");
+  background-image:url("https://itsfoxdev.github.io/separator/res/this.png");
   background-size:contain;
   transform:translateY(4px);
 }
-h4,span{
-  font-family:'Avenir Next Reg';
-}
+*{font-family:"Avenir";}
 h1{
-  font-family:'Avenir Next Demi';
+  font-weight:600;
 }
 #fImg{
   width:30px;
